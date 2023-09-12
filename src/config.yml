@@ -1,0 +1,44 @@
+default:
+  folder: ipeds_raw_data
+  
+  url:
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2021_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2020_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2019_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2018_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2017_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2016_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2015_AY.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2014_AY.zip
+    
+  url_data_dict:
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2021_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2020_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2019_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2018_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2017_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2016_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2015_AY_Dict.zip
+    - https://nces.ed.gov/ipeds/datacenter/data/IC2014_AY_Dict.zip
+ 
+  vars_to_keep:
+    - UNITID
+    - TUITION1
+    - FEE1
+    - HRCHG1
+    - TUITION2
+    - FEE2
+    - HRCHG2
+    - TUITION3
+    - FEE3
+    - HRCHG3
+    - TUITION5
+    - FEE5
+    - HRCHG5
+    - TUITION6
+    - FEE6
+    - HRCHG6
+    - TUITION7
+    - FEE7
+    - HRCHG7
+
